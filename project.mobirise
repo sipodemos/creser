@@ -1,0 +1,347 @@
+{
+  "settings": {
+    "name": "CreSer",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#091115",
+        "#100303"
+      ]
+    },
+    "versionFirst": "4.3.2",
+    "uniqCompNum": 13,
+    "versionPublish": "4.3.2",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#091115"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#091115"
+            },
+            ".link, .dropdown-item": {
+              "color": "#091115",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#091115",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#091115",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Acerca de</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Beneficios</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">+Informacion</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTANTAR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOA</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": "3",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/succes-1000x667.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "Sembrar para Cosechar",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Un adigo muy simple que practicado en forma colectiva rendiria frutos en todos los ambitos de la sociedad.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Las organizaciones hoy mas que nunca dependen del trabajo en equipo. Un equipo que puede ser la familia o aun un pais entero.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/shadebeach-1920x1200.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "Aprendemos en Grupos",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Un tiempo de recreacion &nbsp;es tambien un tiempo de vivir y estar en plena conciencia de nuestro ser y el de los demas.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "Planea tu trabajo y trabaja tu plan",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Sencillas practicas que vas aprender y poner aplicar en tu diario vivir.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/happypeop-2000x1537.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "Seminario CreSER",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "A travez de intuitvas practicas y ejercicios podras descubrir tu potencial innato y empezar una travesia hacia el mundo que siempre haz quierido vivir.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/peopconnet-2000x1000.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "Conectarse a otros niveles",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Estamos conectados y aprenderas como lo funciona esta dinamica tan poderosa .",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_anchor": "slider3-1"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#100303"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "¿De que se trata?",
+          "meta": "El Seminario CreSER es una experiencia transformacional de inmersión completa de tres días en la que te haces un reto a ti mismo a expandirte, crecer y evolucionar hacia una mejor versión de ti mismo.\n<br>\n<br>No se trata de una charla de motivación o un taller de ventas o una conferencia de  auto-ayuda en el que te pones a pensar positivamente y te vas a casa con una sonrisa radiante en la cara sin haber logrado nada. Ni se trata de teorías. Porque nuestro lema es vale mas un gramo de practica que una tonelada de teoría.<br><br>El Seminario CreSER nos invita a un proceso de aprendizaje experiencial en el que participarás en ejercicios esclarecedores y inspiradoras mientras haces descubrimientos sobre ti mismo que te cambian la vida.\n<br>\n<br>Este Seminario puede ser el ingrediente que faltaba para darle a tu vida el empuje, arranque, combustible y orientación necesarios para tener un nuevo empiezo desde donde quiera que te encuentres. Porque no es que sea tanto hasta donde llegamos sino desde donde empezamos lo que nos empoderar a ser y vivir nuestra mejor versión de nosotros mismos.\n<br>\n<br>Leer un libro de auto-ayuda de adecuado prestigio es muy recomendable pero si yo le preguntara que dice en tal pagina, muy pocos y de hecho casi nadie recordaría, porque fue una actividad a nivel intelectual y no hubo técnicas de aprendizaje y nos deja a veces con un vació y queremos llenar ese vacío al tratar de leer el siguiente libro. Pero si involucramos todo nuestro ser en una actividad didáctica el concepto se nos queda por mucho mas tiempo y por lo tanto lo podemos aplicar en la vida diaria porque lo “vivimos” no lo “leímos”. Y he aquí la premisa de CreSER.&nbsp;<br><br><br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote>El Seminario CreSER es un curso educativo en donde puedes hacerte un reto a conocer, discernir, explorar, cuestionar y descubrir tu diario vivir de forma tal que expandes tu efectividad a nivel personal, familiar, y de trabajo de inmediato!</blockquote>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-3",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-size": "23px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p><b>¿Cuál es el horario de la clase?</b></p><p>&nbsp; &nbsp; - Viernes Llegar a las 9:30am</p><p>&nbsp; &nbsp; - Viernes Seminario 10am - 8pm</p><p>&nbsp; &nbsp; - Sábado Seminario 10am - 8pm</p><p>&nbsp; &nbsp; - Domingo Seminario 10am - 8pm</p><p>Hay un evento para invitados el miércoles o el jueves por la noche después de la clase, donde tendrá la oportunidad de compartir la clase con otros y volver a conectarse con los demás asistentes. Una vez que se registre, alguien se pondrá en contacto con usted para informarle sobre los eventos que seguirán a la clase.</p>",
+          "text2": "<p><b>¿Tengo que llevar algo?</b></p><p><br></p><p>&nbsp; &nbsp; Traiga un cuaderno y un bolígrafo para tomar notas.</p><p>&nbsp; &nbsp; Traiga agua embotellada - o algo para beber de su preferencia.&nbsp;</p><p>&nbsp; &nbsp; Lleve refrigerios para comer durante los descansos.</p><p>&nbsp; &nbsp; Traiga efectivo para el almuerzo o traiga el suyo, ya que habrá un almuerzo colectivo para trabajar en equipo todos los días en un lugar previamente acordado.****&nbsp;</p>",
+          "text3": "<b>Requisitos \r</b><div>\r</div><div>Ser mayor de 18 años \r</div><div>Haber completado y enviado el cuestionario adjunto con su nombre por lo menos 5 dias de anticipado\r</div><div>Haber hecho o completado la llamada de conferencia\r</div><div>Haber tenido leido y acordado los terminos de uso y acuerdos del seminario.\r</div><div>Comprometerse a asistir los 3 dias seguidos sin faltar a ninguna sesion.\r</div><div>Haber pagado su cuota de antemano.</div>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-6"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Enviar</a>",
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Estamos en varios&nbsp;</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Paises y ciudades&nbsp;</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>de America Latina<br></b></span></font><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br><br><br><br>\n<strong>Contactar</strong><br>\nPhone en Guate: 5555-3548<br>Whataspp +57 3182204509",
+          "text2": "<p class=\"mbr-contacts__text\"><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Enlaces</b></span></font></p><ul class=\"mbr-contacts__list\"><li>Enlaces</li><li>Avisos&nbsp;</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "chief6@inbox.lv",
+            "alerts": {
+              "success": "Gracias por su mensaje. Sera atendido de forma oportuna."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nombre"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Correo Electronico"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mensaje"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_anchor": "contacts4-c"
+        }
+      ]
+    }
+  }
+}
